@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Suprafata cercului</title>
+
+</head>
+<body>
+
+	<h2> Suprafata cercului</h2>
+
+<p>
+    Formula suprafetei cercului este: A = π*r*r.
+</p>
+<script>
+
+    const PI = 3.14;
+    r = parseInt(prompt("Introduceti raza cercului:",0));
+    if(r < 0){
+    alert("Introduceti un numar pozitiv!!!");
+    r = parseInt(prompt("Introduceti raza cercului:",0));
+  }
+    var s = PI*r*r;
+    console.log(s);
+    alert("Suprafata este:" + s);
+
+</script>
+
+</body>
+</html>
